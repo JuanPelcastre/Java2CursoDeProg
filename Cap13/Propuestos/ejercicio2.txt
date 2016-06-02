@@ -1,0 +1,3 @@
+No se puede escribir un método genérico ya que su declaración nunca es expandida. Esto es, no hay múltiples copias del método, una para cada T igual a Short, Integer, Long, Float, etc.
+
+El compilador java simplemente sustituye T por Object y añade el código necesario para seguir proporcionando la característica de autoempaquetado/desempaquetado (autoboxing/unboxing), así como las conversiones explícitas necesarias.
